@@ -9,8 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        List{
+            NavigationLink("Go to Apple Watch Store") {
+                AppleWatchStorePresenterView()}
+            
+            NavigationLink("Melodi Lamps") {
+                MelodiLampMainView()}
+        }
     }
 }
 

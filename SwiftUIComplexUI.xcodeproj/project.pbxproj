@@ -7,18 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28565DFD27E7A1A7004B217E /* AppleWatchStoreSearhView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565DFC27E7A1A7004B217E /* AppleWatchStoreSearhView.swift */; };
+		28565DFF27E7A3A7004B217E /* AppleWatchGeneralInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565DFE27E7A3A7004B217E /* AppleWatchGeneralInfo.swift */; };
+		28565E0127E7A674004B217E /* AppleWatchStoreDetailBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565E0027E7A674004B217E /* AppleWatchStoreDetailBottomBar.swift */; };
+		28565E0327E7AA3D004B217E /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565E0227E7AA3D004B217E /* TestView.swift */; };
+		286BAE5227ED00F800F268E9 /* MelodiLampCartIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BAE5127ED00F800F268E9 /* MelodiLampCartIcon.swift */; };
+		286BAE5427ED01DA00F268E9 /* MelodiLampAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BAE5327ED01DA00F268E9 /* MelodiLampAddButton.swift */; };
+		286BAE5627ED020F00F268E9 /* MelodiLampDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BAE5527ED020F00F268E9 /* MelodiLampDescription.swift */; };
+		286BAE5827ED025300F268E9 /* MelodiLampDetailLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BAE5727ED025300F268E9 /* MelodiLampDetailLabel.swift */; };
+		286BAE5A27ED028000F268E9 /* MelodiLampsDetailList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BAE5927ED028000F268E9 /* MelodiLampsDetailList.swift */; };
+		286BAE5C27ED029800F268E9 /* MelodiLampColorSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BAE5B27ED029800F268E9 /* MelodiLampColorSelector.swift */; };
+		286BAE5E27ED02BF00F268E9 /* MelodiLampMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BAE5D27ED02BF00F268E9 /* MelodiLampMainView.swift */; };
 		288E2CB527E4B0760083F48F /* SwiftUIComplexUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CB427E4B0760083F48F /* SwiftUIComplexUIApp.swift */; };
 		288E2CB727E4B0760083F48F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CB627E4B0760083F48F /* ContentView.swift */; };
 		288E2CB927E4B0770083F48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288E2CB827E4B0770083F48F /* Assets.xcassets */; };
 		288E2CBC27E4B0770083F48F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288E2CBB27E4B0770083F48F /* Preview Assets.xcassets */; };
+		288E2CC827E4B0F40083F48F /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CC727E4B0F40083F48F /* Assets.swift */; };
+		288E2CCA27E4B2260083F48F /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CC927E4B2260083F48F /* StyleGuide.swift */; };
+		288E2CCD27E4B2330083F48F /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CCC27E4B2330083F48F /* AppColor.swift */; };
+		288E2CD027E4B32C0083F48F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CCF27E4B32C0083F48F /* Color.swift */; };
+		288E2CD327E4B3A00083F48F /* FrameModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CD227E4B3A00083F48F /* FrameModifier.swift */; };
+		288E2CD527E4B3C20083F48F /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CD427E4B3C20083F48F /* View.swift */; };
+		288E2CD827E4B4040083F48F /* CustomCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CD727E4B4040083F48F /* CustomCornerRadius.swift */; };
+		288E2CDB27E4B46E0083F48F /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CDA27E4B46E0083F48F /* Screen.swift */; };
+		288E2CDD27E4B4CE0083F48F /* AppGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CDC27E4B4CE0083F48F /* AppGlobals.swift */; };
+		288E2CE027E4B5150083F48F /* AppleWatchStoreMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CDF27E4B5150083F48F /* AppleWatchStoreMainView.swift */; };
+		288E2CE327E4B5590083F48F /* AppleWatchStoreWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CE227E4B5590083F48F /* AppleWatchStoreWatch.swift */; };
+		288E2CE827E4B5BE0083F48F /* AppleWatchStoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CE727E4B5BE0083F48F /* AppleWatchStoreData.swift */; };
+		288E2CEA27E4B6D80083F48F /* AppleWatchStorePresenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CE927E4B6D80083F48F /* AppleWatchStorePresenterView.swift */; };
+		288E2CEC27E4B7500083F48F /* AppleWatchStorePresenterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CEB27E4B7500083F48F /* AppleWatchStorePresenterViewModel.swift */; };
+		288E2CF127E4C4920083F48F /* AppleWatchStoreTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CF027E4C4920083F48F /* AppleWatchStoreTabBar.swift */; };
+		288E2CF327E4C6AC0083F48F /* WatchScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CF227E4C6AC0083F48F /* WatchScroll.swift */; };
+		288E2CF527E4C8E40083F48F /* AppleWatchStoreMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CF427E4C8E40083F48F /* AppleWatchStoreMenuBar.swift */; };
+		28C7D2C727E6517D0018F1E1 /* AppleWatchStoreTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C7D2C627E6517D0018F1E1 /* AppleWatchStoreTopBar.swift */; };
+		28C7D2C927E6559B0018F1E1 /* AppleWatchStoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C7D2C827E6559B0018F1E1 /* AppleWatchStoreDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28565DFC27E7A1A7004B217E /* AppleWatchStoreSearhView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreSearhView.swift; sourceTree = "<group>"; };
+		28565DFE27E7A3A7004B217E /* AppleWatchGeneralInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchGeneralInfo.swift; sourceTree = "<group>"; };
+		28565E0027E7A674004B217E /* AppleWatchStoreDetailBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreDetailBottomBar.swift; sourceTree = "<group>"; };
+		28565E0227E7AA3D004B217E /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		286BAE5127ED00F800F268E9 /* MelodiLampCartIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelodiLampCartIcon.swift; sourceTree = "<group>"; };
+		286BAE5327ED01DA00F268E9 /* MelodiLampAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelodiLampAddButton.swift; sourceTree = "<group>"; };
+		286BAE5527ED020F00F268E9 /* MelodiLampDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelodiLampDescription.swift; sourceTree = "<group>"; };
+		286BAE5727ED025300F268E9 /* MelodiLampDetailLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelodiLampDetailLabel.swift; sourceTree = "<group>"; };
+		286BAE5927ED028000F268E9 /* MelodiLampsDetailList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelodiLampsDetailList.swift; sourceTree = "<group>"; };
+		286BAE5B27ED029800F268E9 /* MelodiLampColorSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelodiLampColorSelector.swift; sourceTree = "<group>"; };
+		286BAE5D27ED02BF00F268E9 /* MelodiLampMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelodiLampMainView.swift; sourceTree = "<group>"; };
 		288E2CB127E4B0760083F48F /* SwiftUIComplexUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIComplexUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		288E2CB427E4B0760083F48F /* SwiftUIComplexUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIComplexUIApp.swift; sourceTree = "<group>"; };
 		288E2CB627E4B0760083F48F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		288E2CB827E4B0770083F48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		288E2CBB27E4B0770083F48F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		288E2CC727E4B0F40083F48F /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		288E2CC927E4B2260083F48F /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
+		288E2CCC27E4B2330083F48F /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		288E2CCF27E4B32C0083F48F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		288E2CD227E4B3A00083F48F /* FrameModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameModifier.swift; sourceTree = "<group>"; };
+		288E2CD427E4B3C20083F48F /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		288E2CD727E4B4040083F48F /* CustomCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCornerRadius.swift; sourceTree = "<group>"; };
+		288E2CDA27E4B46E0083F48F /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		288E2CDC27E4B4CE0083F48F /* AppGlobals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGlobals.swift; sourceTree = "<group>"; };
+		288E2CDF27E4B5150083F48F /* AppleWatchStoreMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreMainView.swift; sourceTree = "<group>"; };
+		288E2CE227E4B5590083F48F /* AppleWatchStoreWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreWatch.swift; sourceTree = "<group>"; };
+		288E2CE727E4B5BE0083F48F /* AppleWatchStoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreData.swift; sourceTree = "<group>"; };
+		288E2CE927E4B6D80083F48F /* AppleWatchStorePresenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStorePresenterView.swift; sourceTree = "<group>"; };
+		288E2CEB27E4B7500083F48F /* AppleWatchStorePresenterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStorePresenterViewModel.swift; sourceTree = "<group>"; };
+		288E2CF027E4C4920083F48F /* AppleWatchStoreTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreTabBar.swift; sourceTree = "<group>"; };
+		288E2CF227E4C6AC0083F48F /* WatchScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchScroll.swift; sourceTree = "<group>"; };
+		288E2CF427E4C8E40083F48F /* AppleWatchStoreMenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreMenuBar.swift; sourceTree = "<group>"; };
+		28C7D2C627E6517D0018F1E1 /* AppleWatchStoreTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreTopBar.swift; sourceTree = "<group>"; };
+		28C7D2C827E6559B0018F1E1 /* AppleWatchStoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +92,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		286BAE4E27ED001900F268E9 /* MelodiLamps */ = {
+			isa = PBXGroup;
+			children = (
+				286BAE5027ED00EC00F268E9 /* MainView */,
+				286BAE4F27ED00E700F268E9 /* Items */,
+			);
+			path = MelodiLamps;
+			sourceTree = "<group>";
+		};
+		286BAE4F27ED00E700F268E9 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				286BAE5127ED00F800F268E9 /* MelodiLampCartIcon.swift */,
+				286BAE5327ED01DA00F268E9 /* MelodiLampAddButton.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		286BAE5027ED00EC00F268E9 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				286BAE5527ED020F00F268E9 /* MelodiLampDescription.swift */,
+				286BAE5727ED025300F268E9 /* MelodiLampDetailLabel.swift */,
+				286BAE5927ED028000F268E9 /* MelodiLampsDetailList.swift */,
+				286BAE5B27ED029800F268E9 /* MelodiLampColorSelector.swift */,
+				286BAE5D27ED02BF00F268E9 /* MelodiLampMainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
 		288E2CA827E4B0760083F48F = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +143,9 @@
 			children = (
 				288E2CB427E4B0760083F48F /* SwiftUIComplexUIApp.swift */,
 				288E2CB627E4B0760083F48F /* ContentView.swift */,
+				288E2CC227E4B0950083F48F /* ComplexViews */,
+				288E2CC527E4B0BB0083F48F /* Utils */,
+				288E2CC327E4B0A70083F48F /* Resources */,
 				288E2CB827E4B0770083F48F /* Assets.xcassets */,
 				288E2CBA27E4B0770083F48F /* Preview Content */,
 			);
@@ -65,6 +158,163 @@
 				288E2CBB27E4B0770083F48F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		288E2CC227E4B0950083F48F /* ComplexViews */ = {
+			isa = PBXGroup;
+			children = (
+				286BAE4E27ED001900F268E9 /* MelodiLamps */,
+				288E2CDE27E4B4DC0083F48F /* AppleWatchStore */,
+			);
+			path = ComplexViews;
+			sourceTree = "<group>";
+		};
+		288E2CC327E4B0A70083F48F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		288E2CC527E4B0BB0083F48F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				288E2CE627E4B59D0083F48F /* Singletons */,
+				288E2CD927E4B42D0083F48F /* Globals */,
+				288E2CD627E4B3F60083F48F /* Shape */,
+				288E2CD127E4B38A0083F48F /* ViewModifiers */,
+				288E2CCE27E4B3190083F48F /* Extensions */,
+				288E2CCB27E4B2290083F48F /* Structs */,
+				288E2CC627E4B0EA0083F48F /* Enums */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		288E2CC627E4B0EA0083F48F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				288E2CC727E4B0F40083F48F /* Assets.swift */,
+				288E2CC927E4B2260083F48F /* StyleGuide.swift */,
+				288E2CDA27E4B46E0083F48F /* Screen.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		288E2CCB27E4B2290083F48F /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				288E2CCC27E4B2330083F48F /* AppColor.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		288E2CCE27E4B3190083F48F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				288E2CCF27E4B32C0083F48F /* Color.swift */,
+				288E2CD427E4B3C20083F48F /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		288E2CD127E4B38A0083F48F /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				288E2CD227E4B3A00083F48F /* FrameModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		288E2CD627E4B3F60083F48F /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				288E2CD727E4B4040083F48F /* CustomCornerRadius.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+		288E2CD927E4B42D0083F48F /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				288E2CDC27E4B4CE0083F48F /* AppGlobals.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		288E2CDE27E4B4DC0083F48F /* AppleWatchStore */ = {
+			isa = PBXGroup;
+			children = (
+				288E2CE127E4B5450083F48F /* Model */,
+				288E2CE427E4B56D0083F48F /* View */,
+				288E2CE527E4B5740083F48F /* ViewModel */,
+			);
+			path = AppleWatchStore;
+			sourceTree = "<group>";
+		};
+		288E2CE127E4B5450083F48F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				288E2CE227E4B5590083F48F /* AppleWatchStoreWatch.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		288E2CE427E4B56D0083F48F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				288E2CE927E4B6D80083F48F /* AppleWatchStorePresenterView.swift */,
+				288E2CEF27E4C4780083F48F /* MainView */,
+				288E2CF627E4C9A20083F48F /* DetailView */,
+				28C7D2C527E651610018F1E1 /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		288E2CE527E4B5740083F48F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				288E2CEB27E4B7500083F48F /* AppleWatchStorePresenterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		288E2CE627E4B59D0083F48F /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				288E2CE727E4B5BE0083F48F /* AppleWatchStoreData.swift */,
+			);
+			path = Singletons;
+			sourceTree = "<group>";
+		};
+		288E2CEF27E4C4780083F48F /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				288E2CDF27E4B5150083F48F /* AppleWatchStoreMainView.swift */,
+				288E2CF027E4C4920083F48F /* AppleWatchStoreTabBar.swift */,
+				288E2CF227E4C6AC0083F48F /* WatchScroll.swift */,
+				288E2CF427E4C8E40083F48F /* AppleWatchStoreMenuBar.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		288E2CF627E4C9A20083F48F /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				28C7D2C827E6559B0018F1E1 /* AppleWatchStoreDetailView.swift */,
+				28565DFC27E7A1A7004B217E /* AppleWatchStoreSearhView.swift */,
+				28565DFE27E7A3A7004B217E /* AppleWatchGeneralInfo.swift */,
+				28565E0027E7A674004B217E /* AppleWatchStoreDetailBottomBar.swift */,
+				28565E0227E7AA3D004B217E /* TestView.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		28C7D2C527E651610018F1E1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				28C7D2C627E6517D0018F1E1 /* AppleWatchStoreTopBar.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +387,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C7D2C927E6559B0018F1E1 /* AppleWatchStoreDetailView.swift in Sources */,
+				28565E0327E7AA3D004B217E /* TestView.swift in Sources */,
+				288E2CD527E4B3C20083F48F /* View.swift in Sources */,
+				288E2CEA27E4B6D80083F48F /* AppleWatchStorePresenterView.swift in Sources */,
+				288E2CDD27E4B4CE0083F48F /* AppGlobals.swift in Sources */,
+				288E2CE027E4B5150083F48F /* AppleWatchStoreMainView.swift in Sources */,
+				288E2CD827E4B4040083F48F /* CustomCornerRadius.swift in Sources */,
 				288E2CB727E4B0760083F48F /* ContentView.swift in Sources */,
+				288E2CCD27E4B2330083F48F /* AppColor.swift in Sources */,
+				288E2CF327E4C6AC0083F48F /* WatchScroll.swift in Sources */,
+				286BAE5A27ED028000F268E9 /* MelodiLampsDetailList.swift in Sources */,
 				288E2CB527E4B0760083F48F /* SwiftUIComplexUIApp.swift in Sources */,
+				28565E0127E7A674004B217E /* AppleWatchStoreDetailBottomBar.swift in Sources */,
+				288E2CF127E4C4920083F48F /* AppleWatchStoreTabBar.swift in Sources */,
+				28565DFD27E7A1A7004B217E /* AppleWatchStoreSearhView.swift in Sources */,
+				288E2CE327E4B5590083F48F /* AppleWatchStoreWatch.swift in Sources */,
+				286BAE5C27ED029800F268E9 /* MelodiLampColorSelector.swift in Sources */,
+				288E2CCA27E4B2260083F48F /* StyleGuide.swift in Sources */,
+				288E2CC827E4B0F40083F48F /* Assets.swift in Sources */,
+				288E2CF527E4C8E40083F48F /* AppleWatchStoreMenuBar.swift in Sources */,
+				286BAE5627ED020F00F268E9 /* MelodiLampDescription.swift in Sources */,
+				28565DFF27E7A3A7004B217E /* AppleWatchGeneralInfo.swift in Sources */,
+				288E2CD327E4B3A00083F48F /* FrameModifier.swift in Sources */,
+				286BAE5E27ED02BF00F268E9 /* MelodiLampMainView.swift in Sources */,
+				288E2CEC27E4B7500083F48F /* AppleWatchStorePresenterViewModel.swift in Sources */,
+				286BAE5427ED01DA00F268E9 /* MelodiLampAddButton.swift in Sources */,
+				28C7D2C727E6517D0018F1E1 /* AppleWatchStoreTopBar.swift in Sources */,
+				286BAE5827ED025300F268E9 /* MelodiLampDetailLabel.swift in Sources */,
+				288E2CD027E4B32C0083F48F /* Color.swift in Sources */,
+				288E2CE827E4B5BE0083F48F /* AppleWatchStoreData.swift in Sources */,
+				286BAE5227ED00F800F268E9 /* MelodiLampCartIcon.swift in Sources */,
+				288E2CDB27E4B46E0083F48F /* Screen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
