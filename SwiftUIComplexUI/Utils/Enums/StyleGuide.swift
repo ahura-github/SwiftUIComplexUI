@@ -14,6 +14,14 @@ enum StyleGuide{
             case orange = "OrangeAppleWatchStore"
             case brown  = "BrownAppleWatchStore"
         }
+        
+        enum GameUI: AppColor{
+            case color  = "GameUIColor"
+            case color1 = "GameUIColor1"
+            case color2 = "GameUIColor2"
+            case color3 = "GameUIColor3"
+            case color4 = "GameUIColor4"
+        }
     }
     
     

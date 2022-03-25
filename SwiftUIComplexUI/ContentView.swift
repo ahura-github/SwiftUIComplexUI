@@ -15,6 +15,12 @@ struct ContentView: View {
             
             NavigationLink("Melodi Lamps") {
                 MelodiLampMainView()}
+            
+            
+            NavigationLink("GameUI") {
+                GameUIMainView()}
+            
+            
         }
     }
 }
