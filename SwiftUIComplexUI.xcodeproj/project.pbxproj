@@ -25,6 +25,9 @@
 		2886050C27ED848D006A5196 /* GameUICharacterCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886050B27ED848D006A5196 /* GameUICharacterCarView.swift */; };
 		2886050E27ED84AF006A5196 /* GameUIMainViewTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886050D27ED84AF006A5196 /* GameUIMainViewTopBar.swift */; };
 		2886051027ED84E3006A5196 /* GameUIMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886050F27ED84E3006A5196 /* GameUIMainView.swift */; };
+		2886051427ED870C006A5196 /* NutritionValueFruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886051327ED870C006A5196 /* NutritionValueFruit.swift */; };
+		2886051627ED8782006A5196 /* NutritionValueData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886051527ED8782006A5196 /* NutritionValueData.swift */; };
+		2886051927ED8873006A5196 /* NutritionValueMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886051827ED8873006A5196 /* NutritionValueMainView.swift */; };
 		288E2CB527E4B0760083F48F /* SwiftUIComplexUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CB427E4B0760083F48F /* SwiftUIComplexUIApp.swift */; };
 		288E2CB727E4B0760083F48F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CB627E4B0760083F48F /* ContentView.swift */; };
 		288E2CB927E4B0770083F48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288E2CB827E4B0770083F48F /* Assets.xcassets */; };
@@ -69,6 +72,9 @@
 		2886050B27ED848D006A5196 /* GameUICharacterCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameUICharacterCarView.swift; sourceTree = "<group>"; };
 		2886050D27ED84AF006A5196 /* GameUIMainViewTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameUIMainViewTopBar.swift; sourceTree = "<group>"; };
 		2886050F27ED84E3006A5196 /* GameUIMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameUIMainView.swift; sourceTree = "<group>"; };
+		2886051327ED870C006A5196 /* NutritionValueFruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueFruit.swift; sourceTree = "<group>"; };
+		2886051527ED8782006A5196 /* NutritionValueData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueData.swift; sourceTree = "<group>"; };
+		2886051827ED8873006A5196 /* NutritionValueMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueMainView.swift; sourceTree = "<group>"; };
 		288E2CB127E4B0760083F48F /* SwiftUIComplexUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIComplexUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		288E2CB427E4B0760083F48F /* SwiftUIComplexUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIComplexUIApp.swift; sourceTree = "<group>"; };
 		288E2CB627E4B0760083F48F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -173,6 +179,31 @@
 			path = MainView;
 			sourceTree = "<group>";
 		};
+		2886051127ED86F6006A5196 /* NutritionValue */ = {
+			isa = PBXGroup;
+			children = (
+				2886051727ED8861006A5196 /* MainView */,
+				2886051227ED86FE006A5196 /* Models */,
+			);
+			path = NutritionValue;
+			sourceTree = "<group>";
+		};
+		2886051227ED86FE006A5196 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2886051327ED870C006A5196 /* NutritionValueFruit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2886051727ED8861006A5196 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				2886051827ED8873006A5196 /* NutritionValueMainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
 		288E2CA827E4B0760083F48F = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +245,7 @@
 		288E2CC227E4B0950083F48F /* ComplexViews */ = {
 			isa = PBXGroup;
 			children = (
+				2886051127ED86F6006A5196 /* NutritionValue */,
 				288604FF27ED81F7006A5196 /* GameUI */,
 				286BAE4E27ED001900F268E9 /* MelodiLamps */,
 				288E2CDE27E4B4DC0083F48F /* AppleWatchStore */,
@@ -335,6 +367,7 @@
 			children = (
 				288E2CE727E4B5BE0083F48F /* AppleWatchStoreData.swift */,
 				2886050027ED8262006A5196 /* GameUIDate.swift */,
+				2886051527ED8782006A5196 /* NutritionValueData.swift */,
 			);
 			path = Singletons;
 			sourceTree = "<group>";
@@ -447,6 +480,7 @@
 				288E2CDD27E4B4CE0083F48F /* AppGlobals.swift in Sources */,
 				288E2CE027E4B5150083F48F /* AppleWatchStoreMainView.swift in Sources */,
 				288E2CD827E4B4040083F48F /* CustomCornerRadius.swift in Sources */,
+				2886051427ED870C006A5196 /* NutritionValueFruit.swift in Sources */,
 				288E2CB727E4B0760083F48F /* ContentView.swift in Sources */,
 				2886050A27ED8430006A5196 /* GameUICharacterStatView.swift in Sources */,
 				288E2CCD27E4B2330083F48F /* AppColor.swift in Sources */,
@@ -466,6 +500,7 @@
 				286BAE5627ED020F00F268E9 /* MelodiLampDescription.swift in Sources */,
 				28565DFF27E7A3A7004B217E /* AppleWatchGeneralInfo.swift in Sources */,
 				288E2CD327E4B3A00083F48F /* FrameModifier.swift in Sources */,
+				2886051627ED8782006A5196 /* NutritionValueData.swift in Sources */,
 				286BAE5E27ED02BF00F268E9 /* MelodiLampMainView.swift in Sources */,
 				288E2CEC27E4B7500083F48F /* AppleWatchStorePresenterViewModel.swift in Sources */,
 				286BAE5427ED01DA00F268E9 /* MelodiLampAddButton.swift in Sources */,
@@ -478,6 +513,7 @@
 				2886050C27ED848D006A5196 /* GameUICharacterCarView.swift in Sources */,
 				2886050127ED8262006A5196 /* GameUIDate.swift in Sources */,
 				288E2CDB27E4B46E0083F48F /* Screen.swift in Sources */,
+				2886051927ED8873006A5196 /* NutritionValueMainView.swift in Sources */,
 				2886050827ED830D006A5196 /* GameUIDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

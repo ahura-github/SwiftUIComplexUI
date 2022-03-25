@@ -21,6 +21,28 @@ struct ContentView: View {
                 GameUIMainView()}
             
             
+            NavigationLink("Nutrition Value") {
+                NutritionValueMainView()}
+            
+//            NavigationLink("GameUI") {
+//                GameUIMainView()}
+//            NavigationLink("GameUI") {
+//                GameUIMainView()}
+//            NavigationLink("GameUI") {
+//                GameUIMainView()}
+//            NavigationLink("GameUI") {
+//                GameUIMainView()}
+//            NavigationLink("GameUI") {
+//                GameUIMainView()}
+//            NavigationLink("GameUI") {
+//                GameUIMainView()}
+//            NavigationLink("GameUI") {
+//                GameUIMainView()}
+//            NavigationLink("GameUI") {
+//                GameUIMainView()}
+//            NavigationLink("GameUI") {
+//                GameUIMainView()}
+            
         }
     }
 }

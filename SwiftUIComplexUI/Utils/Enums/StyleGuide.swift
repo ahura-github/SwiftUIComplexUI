@@ -22,6 +22,13 @@ enum StyleGuide{
             case color3 = "GameUIColor3"
             case color4 = "GameUIColor4"
         }
+        
+        
+        enum NutritionValue: AppColor {
+            case blue   = "NutritionValueBlue"
+            case purple = "NutritionValuePurple"
+            case yellow = "NutritionValueYellow"
+        }
     }
     
     
