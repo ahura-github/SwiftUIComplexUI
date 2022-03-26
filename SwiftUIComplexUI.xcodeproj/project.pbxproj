@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280A5F3127EF57E3002B882E /* Trapezius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A5F3027EF57E3002B882E /* Trapezius.swift */; };
+		280A5F3327EF5819002B882E /* OderDrinkMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A5F3227EF5819002B882E /* OderDrinkMainView.swift */; };
 		28565DFD27E7A1A7004B217E /* AppleWatchStoreSearhView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565DFC27E7A1A7004B217E /* AppleWatchStoreSearhView.swift */; };
 		28565DFF27E7A3A7004B217E /* AppleWatchGeneralInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565DFE27E7A3A7004B217E /* AppleWatchGeneralInfo.swift */; };
 		28565E0127E7A674004B217E /* AppleWatchStoreDetailBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565E0027E7A674004B217E /* AppleWatchStoreDetailBottomBar.swift */; };
@@ -54,6 +56,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		280A5F3027EF57E3002B882E /* Trapezius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trapezius.swift; sourceTree = "<group>"; };
+		280A5F3227EF5819002B882E /* OderDrinkMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OderDrinkMainView.swift; sourceTree = "<group>"; };
 		28565DFC27E7A1A7004B217E /* AppleWatchStoreSearhView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreSearhView.swift; sourceTree = "<group>"; };
 		28565DFE27E7A3A7004B217E /* AppleWatchGeneralInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchGeneralInfo.swift; sourceTree = "<group>"; };
 		28565E0027E7A674004B217E /* AppleWatchStoreDetailBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreDetailBottomBar.swift; sourceTree = "<group>"; };
@@ -112,6 +116,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		280A5F2F27EF57A6002B882E /* OrderDrink */ = {
+			isa = PBXGroup;
+			children = (
+				280A5F3227EF5819002B882E /* OderDrinkMainView.swift */,
+			);
+			path = OrderDrink;
+			sourceTree = "<group>";
+		};
 		286BAE4E27ED001900F268E9 /* MelodiLamps */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +261,7 @@
 				288604FF27ED81F7006A5196 /* GameUI */,
 				286BAE4E27ED001900F268E9 /* MelodiLamps */,
 				288E2CDE27E4B4DC0083F48F /* AppleWatchStore */,
+				280A5F2F27EF57A6002B882E /* OrderDrink */,
 			);
 			path = ComplexViews;
 			sourceTree = "<group>";
@@ -313,6 +326,7 @@
 			isa = PBXGroup;
 			children = (
 				288E2CD727E4B4040083F48F /* CustomCornerRadius.swift */,
+				280A5F3027EF57E3002B882E /* Trapezius.swift */,
 			);
 			path = Shape;
 			sourceTree = "<group>";
@@ -494,12 +508,14 @@
 				286BAE5C27ED029800F268E9 /* MelodiLampColorSelector.swift in Sources */,
 				2886050427ED82BF006A5196 /* GameUICharacter.swift in Sources */,
 				2886050E27ED84AF006A5196 /* GameUIMainViewTopBar.swift in Sources */,
+				280A5F3127EF57E3002B882E /* Trapezius.swift in Sources */,
 				288E2CCA27E4B2260083F48F /* StyleGuide.swift in Sources */,
 				288E2CC827E4B0F40083F48F /* Assets.swift in Sources */,
 				288E2CF527E4C8E40083F48F /* AppleWatchStoreMenuBar.swift in Sources */,
 				286BAE5627ED020F00F268E9 /* MelodiLampDescription.swift in Sources */,
 				28565DFF27E7A3A7004B217E /* AppleWatchGeneralInfo.swift in Sources */,
 				288E2CD327E4B3A00083F48F /* FrameModifier.swift in Sources */,
+				280A5F3327EF5819002B882E /* OderDrinkMainView.swift in Sources */,
 				2886051627ED8782006A5196 /* NutritionValueData.swift in Sources */,
 				286BAE5E27ED02BF00F268E9 /* MelodiLampMainView.swift in Sources */,
 				288E2CEC27E4B7500083F48F /* AppleWatchStorePresenterViewModel.swift in Sources */,
