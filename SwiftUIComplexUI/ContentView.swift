@@ -26,8 +26,9 @@ struct ContentView: View {
             
             NavigationLink("Order Drink") {
                 OderDrinkMainView()}
-//            NavigationLink("GameUI") {
-//                GameUIMainView()}
+            
+            NavigationLink("Order Food") {
+                OrderFoodMainView()}
 //            NavigationLink("GameUI") {
 //                GameUIMainView()}
 //            NavigationLink("GameUI") {
