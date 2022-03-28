@@ -49,7 +49,7 @@ struct Carousel: UIViewRepresentable{
     }
     
     func makeCoordinator() -> Coordinator {
-        return Coordinator(parent: self)
+        return Carousel.Coordinator(parent: self)
     }
     class Coordinator: NSObject, UIScrollViewDelegate{
         var parent: Carousel

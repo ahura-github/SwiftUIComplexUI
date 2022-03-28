@@ -16,5 +16,6 @@ enum Screen{
     
     enum Edge{
         static let bottomSafeArea = ((UIApplication.shared.connectedScenes.first as? UIWindowScene)?.windows.first?.safeAreaInsets.bottom)!
+        static let topSafeArea    = ((UIApplication.shared.connectedScenes.first as? UIWindowScene)?.windows.first?.safeAreaInsets.top)!
     }
 }

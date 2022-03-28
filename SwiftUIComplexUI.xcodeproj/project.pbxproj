@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		280A5F3127EF57E3002B882E /* Trapezius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A5F3027EF57E3002B882E /* Trapezius.swift */; };
 		280A5F3327EF5819002B882E /* OderDrinkMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A5F3227EF5819002B882E /* OderDrinkMainView.swift */; };
+		28501CFB27F1AFD700485BE3 /* TravelAppPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28501CFA27F1AFD700485BE3 /* TravelAppPlace.swift */; };
+		28501CFD27F1B06600485BE3 /* TravelAppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28501CFC27F1B06600485BE3 /* TravelAppData.swift */; };
+		28501D0027F1B38400485BE3 /* TravelAppMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28501CFF27F1B38400485BE3 /* TravelAppMainView.swift */; };
+		28501D0227F1B6B900485BE3 /* TravelAppHScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28501D0127F1B6B900485BE3 /* TravelAppHScroll.swift */; };
+		28501D0427F1BA3400485BE3 /* TravelAppCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28501D0327F1BA3400485BE3 /* TravelAppCarousel.swift */; };
 		28565DFD27E7A1A7004B217E /* AppleWatchStoreSearhView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565DFC27E7A1A7004B217E /* AppleWatchStoreSearhView.swift */; };
 		28565DFF27E7A3A7004B217E /* AppleWatchGeneralInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565DFE27E7A3A7004B217E /* AppleWatchGeneralInfo.swift */; };
 		28565E0127E7A674004B217E /* AppleWatchStoreDetailBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565E0027E7A674004B217E /* AppleWatchStoreDetailBottomBar.swift */; };
@@ -30,6 +35,8 @@
 		2886051427ED870C006A5196 /* NutritionValueFruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886051327ED870C006A5196 /* NutritionValueFruit.swift */; };
 		2886051627ED8782006A5196 /* NutritionValueData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886051527ED8782006A5196 /* NutritionValueData.swift */; };
 		2886051927ED8873006A5196 /* NutritionValueMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886051827ED8873006A5196 /* NutritionValueMainView.swift */; };
+		288C98F927F1EA1800078701 /* TravelAppDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288C98F827F1EA1800078701 /* TravelAppDetailView.swift */; };
+		288C98FC27F1ECFB00078701 /* TravelAppShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288C98FB27F1ECFB00078701 /* TravelAppShape.swift */; };
 		288E2CB527E4B0760083F48F /* SwiftUIComplexUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CB427E4B0760083F48F /* SwiftUIComplexUIApp.swift */; };
 		288E2CB727E4B0760083F48F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CB627E4B0760083F48F /* ContentView.swift */; };
 		288E2CB927E4B0770083F48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288E2CB827E4B0770083F48F /* Assets.xcassets */; };
@@ -68,6 +75,11 @@
 /* Begin PBXFileReference section */
 		280A5F3027EF57E3002B882E /* Trapezius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trapezius.swift; sourceTree = "<group>"; };
 		280A5F3227EF5819002B882E /* OderDrinkMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OderDrinkMainView.swift; sourceTree = "<group>"; };
+		28501CFA27F1AFD700485BE3 /* TravelAppPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppPlace.swift; sourceTree = "<group>"; };
+		28501CFC27F1B06600485BE3 /* TravelAppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppData.swift; sourceTree = "<group>"; };
+		28501CFF27F1B38400485BE3 /* TravelAppMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppMainView.swift; sourceTree = "<group>"; };
+		28501D0127F1B6B900485BE3 /* TravelAppHScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppHScroll.swift; sourceTree = "<group>"; };
+		28501D0327F1BA3400485BE3 /* TravelAppCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppCarousel.swift; sourceTree = "<group>"; };
 		28565DFC27E7A1A7004B217E /* AppleWatchStoreSearhView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreSearhView.swift; sourceTree = "<group>"; };
 		28565DFE27E7A3A7004B217E /* AppleWatchGeneralInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchGeneralInfo.swift; sourceTree = "<group>"; };
 		28565E0027E7A674004B217E /* AppleWatchStoreDetailBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreDetailBottomBar.swift; sourceTree = "<group>"; };
@@ -89,6 +101,8 @@
 		2886051327ED870C006A5196 /* NutritionValueFruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueFruit.swift; sourceTree = "<group>"; };
 		2886051527ED8782006A5196 /* NutritionValueData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueData.swift; sourceTree = "<group>"; };
 		2886051827ED8873006A5196 /* NutritionValueMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueMainView.swift; sourceTree = "<group>"; };
+		288C98F827F1EA1800078701 /* TravelAppDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppDetailView.swift; sourceTree = "<group>"; };
+		288C98FB27F1ECFB00078701 /* TravelAppShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppShape.swift; sourceTree = "<group>"; };
 		288E2CB127E4B0760083F48F /* SwiftUIComplexUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIComplexUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		288E2CB427E4B0760083F48F /* SwiftUIComplexUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIComplexUIApp.swift; sourceTree = "<group>"; };
 		288E2CB627E4B0760083F48F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -142,6 +156,42 @@
 				280A5F3227EF5819002B882E /* OderDrinkMainView.swift */,
 			);
 			path = OrderDrink;
+			sourceTree = "<group>";
+		};
+		28501CF827F1AFBB00485BE3 /* TravelApp */ = {
+			isa = PBXGroup;
+			children = (
+				288C98FA27F1ECBF00078701 /* Shape */,
+				28501D0527F1C0B200485BE3 /* DetailView */,
+				28501CF927F1AFC800485BE3 /* Model */,
+				28501CFE27F1B23500485BE3 /* MainView */,
+			);
+			path = TravelApp;
+			sourceTree = "<group>";
+		};
+		28501CF927F1AFC800485BE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28501CFA27F1AFD700485BE3 /* TravelAppPlace.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28501CFE27F1B23500485BE3 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				28501CFF27F1B38400485BE3 /* TravelAppMainView.swift */,
+				28501D0127F1B6B900485BE3 /* TravelAppHScroll.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		28501D0527F1C0B200485BE3 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				288C98F827F1EA1800078701 /* TravelAppDetailView.swift */,
+			);
+			path = DetailView;
 			sourceTree = "<group>";
 		};
 		286BAE4E27ED001900F268E9 /* MelodiLamps */ = {
@@ -236,6 +286,14 @@
 			path = MainView;
 			sourceTree = "<group>";
 		};
+		288C98FA27F1ECBF00078701 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				288C98FB27F1ECFB00078701 /* TravelAppShape.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
 		288E2CA827E4B0760083F48F = {
 			isa = PBXGroup;
 			children = (
@@ -260,7 +318,6 @@
 				288E2CC227E4B0950083F48F /* ComplexViews */,
 				288E2CC527E4B0BB0083F48F /* Utils */,
 				288E2CC327E4B0A70083F48F /* Resources */,
-				288E2CB827E4B0770083F48F /* Assets.xcassets */,
 				288E2CBA27E4B0770083F48F /* Preview Content */,
 			);
 			path = SwiftUIComplexUI;
@@ -277,6 +334,7 @@
 		288E2CC227E4B0950083F48F /* ComplexViews */ = {
 			isa = PBXGroup;
 			children = (
+				28501CF827F1AFBB00485BE3 /* TravelApp */,
 				28E9959727F0756E0088B67D /* OrderFood */,
 				2886051127ED86F6006A5196 /* NutritionValue */,
 				288604FF27ED81F7006A5196 /* GameUI */,
@@ -290,6 +348,7 @@
 		288E2CC327E4B0A70083F48F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				288E2CB827E4B0770083F48F /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -405,6 +464,7 @@
 				2886050027ED8262006A5196 /* GameUIDate.swift */,
 				2886051527ED8782006A5196 /* NutritionValueData.swift */,
 				28E995A427F07A160088B67D /* OrderFoodData.swift */,
+				28501CFC27F1B06600485BE3 /* TravelAppData.swift */,
 			);
 			path = Singletons;
 			sourceTree = "<group>";
@@ -459,6 +519,7 @@
 			children = (
 				28E995A927F082CB0088B67D /* Carousel.swift */,
 				28E995AB27F08A360088B67D /* OrderFoodPageControl.swift */,
+				28501D0327F1BA3400485BE3 /* TravelAppCarousel.swift */,
 			);
 			path = UIRepresentables;
 			sourceTree = "<group>";
@@ -539,6 +600,7 @@
 				288E2CD527E4B3C20083F48F /* View.swift in Sources */,
 				288E2CEA27E4B6D80083F48F /* AppleWatchStorePresenterView.swift in Sources */,
 				288E2CDD27E4B4CE0083F48F /* AppGlobals.swift in Sources */,
+				28501D0027F1B38400485BE3 /* TravelAppMainView.swift in Sources */,
 				288E2CE027E4B5150083F48F /* AppleWatchStoreMainView.swift in Sources */,
 				28E995AC27F08A360088B67D /* OrderFoodPageControl.swift in Sources */,
 				288E2CD827E4B4040083F48F /* CustomCornerRadius.swift in Sources */,
@@ -547,7 +609,9 @@
 				288E2CB727E4B0760083F48F /* ContentView.swift in Sources */,
 				2886050A27ED8430006A5196 /* GameUICharacterStatView.swift in Sources */,
 				28E995A727F07E370088B67D /* OrderFoodCarousel.swift in Sources */,
+				28501D0427F1BA3400485BE3 /* TravelAppCarousel.swift in Sources */,
 				288E2CCD27E4B2330083F48F /* AppColor.swift in Sources */,
+				28501CFD27F1B06600485BE3 /* TravelAppData.swift in Sources */,
 				288E2CF327E4C6AC0083F48F /* WatchScroll.swift in Sources */,
 				286BAE5A27ED028000F268E9 /* MelodiLampsDetailList.swift in Sources */,
 				288E2CB527E4B0760083F48F /* SwiftUIComplexUIApp.swift in Sources */,
@@ -564,12 +628,15 @@
 				288E2CCA27E4B2260083F48F /* StyleGuide.swift in Sources */,
 				288E2CC827E4B0F40083F48F /* Assets.swift in Sources */,
 				28E995A527F07A160088B67D /* OrderFoodData.swift in Sources */,
+				28501D0227F1B6B900485BE3 /* TravelAppHScroll.swift in Sources */,
 				288E2CF527E4C8E40083F48F /* AppleWatchStoreMenuBar.swift in Sources */,
+				28501CFB27F1AFD700485BE3 /* TravelAppPlace.swift in Sources */,
 				28E995AA27F082CB0088B67D /* Carousel.swift in Sources */,
 				286BAE5627ED020F00F268E9 /* MelodiLampDescription.swift in Sources */,
 				28565DFF27E7A3A7004B217E /* AppleWatchGeneralInfo.swift in Sources */,
 				288E2CD327E4B3A00083F48F /* FrameModifier.swift in Sources */,
 				280A5F3327EF5819002B882E /* OderDrinkMainView.swift in Sources */,
+				288C98FC27F1ECFB00078701 /* TravelAppShape.swift in Sources */,
 				2886051627ED8782006A5196 /* NutritionValueData.swift in Sources */,
 				286BAE5E27ED02BF00F268E9 /* MelodiLampMainView.swift in Sources */,
 				288E2CEC27E4B7500083F48F /* AppleWatchStorePresenterViewModel.swift in Sources */,
@@ -577,6 +644,7 @@
 				28C7D2C727E6517D0018F1E1 /* AppleWatchStoreTopBar.swift in Sources */,
 				28E9959927F0758B0088B67D /* OrderFoodTopBar.swift in Sources */,
 				286BAE5827ED025300F268E9 /* MelodiLampDetailLabel.swift in Sources */,
+				288C98F927F1EA1800078701 /* TravelAppDetailView.swift in Sources */,
 				288E2CD027E4B32C0083F48F /* Color.swift in Sources */,
 				28E9959F27F077A50088B67D /* OrderFoodCategoryCell.swift in Sources */,
 				288E2CE827E4B5BE0083F48F /* AppleWatchStoreData.swift in Sources */,
