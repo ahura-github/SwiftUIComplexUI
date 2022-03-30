@@ -32,8 +32,9 @@ struct ContentView: View {
             
             NavigationLink("Travell app") {
                 TravelAppMainView()}
-//            NavigationLink("GameUI") {
-//                GameUIMainView()}
+            
+            NavigationLink("Custom Curve") {
+                CustomCurvesMainView()}
 //            NavigationLink("GameUI") {
 //                GameUIMainView()}
 //            NavigationLink("GameUI") {

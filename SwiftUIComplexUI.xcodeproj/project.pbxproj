@@ -14,6 +14,8 @@
 		28501D0027F1B38400485BE3 /* TravelAppMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28501CFF27F1B38400485BE3 /* TravelAppMainView.swift */; };
 		28501D0227F1B6B900485BE3 /* TravelAppHScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28501D0127F1B6B900485BE3 /* TravelAppHScroll.swift */; };
 		28501D0427F1BA3400485BE3 /* TravelAppCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28501D0327F1BA3400485BE3 /* TravelAppCarousel.swift */; };
+		2850A80C27F487C100CC8DC8 /* CustomCurveIntroductionBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2850A80B27F487C100CC8DC8 /* CustomCurveIntroductionBubble.swift */; };
+		2850A80E27F488E600CC8DC8 /* CustomCurveJobCategoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2850A80D27F488E600CC8DC8 /* CustomCurveJobCategoryCard.swift */; };
 		28565DFD27E7A1A7004B217E /* AppleWatchStoreSearhView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565DFC27E7A1A7004B217E /* AppleWatchStoreSearhView.swift */; };
 		28565DFF27E7A3A7004B217E /* AppleWatchGeneralInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565DFE27E7A3A7004B217E /* AppleWatchGeneralInfo.swift */; };
 		28565E0127E7A674004B217E /* AppleWatchStoreDetailBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565E0027E7A674004B217E /* AppleWatchStoreDetailBottomBar.swift */; };
@@ -58,6 +60,9 @@
 		288E2CF127E4C4920083F48F /* AppleWatchStoreTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CF027E4C4920083F48F /* AppleWatchStoreTabBar.swift */; };
 		288E2CF327E4C6AC0083F48F /* WatchScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CF227E4C6AC0083F48F /* WatchScroll.swift */; };
 		288E2CF527E4C8E40083F48F /* AppleWatchStoreMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CF427E4C8E40083F48F /* AppleWatchStoreMenuBar.swift */; };
+		28B292BE27F343F10009030B /* CustomCurvesMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B292BD27F343F10009030B /* CustomCurvesMainView.swift */; };
+		28B292C027F343FC0009030B /* CustomCurvesTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B292BF27F343FC0009030B /* CustomCurvesTopBar.swift */; };
+		28B292C227F3440A0009030B /* CustomCurveProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B292C127F3440A0009030B /* CustomCurveProfile.swift */; };
 		28C7D2C727E6517D0018F1E1 /* AppleWatchStoreTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C7D2C627E6517D0018F1E1 /* AppleWatchStoreTopBar.swift */; };
 		28C7D2C927E6559B0018F1E1 /* AppleWatchStoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C7D2C827E6559B0018F1E1 /* AppleWatchStoreDetailView.swift */; };
 		28E9959927F0758B0088B67D /* OrderFoodTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E9959827F0758B0088B67D /* OrderFoodTopBar.swift */; };
@@ -80,6 +85,8 @@
 		28501CFF27F1B38400485BE3 /* TravelAppMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppMainView.swift; sourceTree = "<group>"; };
 		28501D0127F1B6B900485BE3 /* TravelAppHScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppHScroll.swift; sourceTree = "<group>"; };
 		28501D0327F1BA3400485BE3 /* TravelAppCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppCarousel.swift; sourceTree = "<group>"; };
+		2850A80B27F487C100CC8DC8 /* CustomCurveIntroductionBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurveIntroductionBubble.swift; sourceTree = "<group>"; };
+		2850A80D27F488E600CC8DC8 /* CustomCurveJobCategoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurveJobCategoryCard.swift; sourceTree = "<group>"; };
 		28565DFC27E7A1A7004B217E /* AppleWatchStoreSearhView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreSearhView.swift; sourceTree = "<group>"; };
 		28565DFE27E7A3A7004B217E /* AppleWatchGeneralInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchGeneralInfo.swift; sourceTree = "<group>"; };
 		28565E0027E7A674004B217E /* AppleWatchStoreDetailBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreDetailBottomBar.swift; sourceTree = "<group>"; };
@@ -125,6 +132,9 @@
 		288E2CF027E4C4920083F48F /* AppleWatchStoreTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreTabBar.swift; sourceTree = "<group>"; };
 		288E2CF227E4C6AC0083F48F /* WatchScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchScroll.swift; sourceTree = "<group>"; };
 		288E2CF427E4C8E40083F48F /* AppleWatchStoreMenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreMenuBar.swift; sourceTree = "<group>"; };
+		28B292BD27F343F10009030B /* CustomCurvesMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesMainView.swift; sourceTree = "<group>"; };
+		28B292BF27F343FC0009030B /* CustomCurvesTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesTopBar.swift; sourceTree = "<group>"; };
+		28B292C127F3440A0009030B /* CustomCurveProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurveProfile.swift; sourceTree = "<group>"; };
 		28C7D2C627E6517D0018F1E1 /* AppleWatchStoreTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreTopBar.swift; sourceTree = "<group>"; };
 		28C7D2C827E6559B0018F1E1 /* AppleWatchStoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreDetailView.swift; sourceTree = "<group>"; };
 		28E9959827F0758B0088B67D /* OrderFoodTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFoodTopBar.swift; sourceTree = "<group>"; };
@@ -334,6 +344,7 @@
 		288E2CC227E4B0950083F48F /* ComplexViews */ = {
 			isa = PBXGroup;
 			children = (
+				28B292BB27F33C400009030B /* CustomCurves */,
 				28501CF827F1AFBB00485BE3 /* TravelApp */,
 				28E9959727F0756E0088B67D /* OrderFood */,
 				2886051127ED86F6006A5196 /* NutritionValue */,
@@ -492,6 +503,18 @@
 			path = DetailView;
 			sourceTree = "<group>";
 		};
+		28B292BB27F33C400009030B /* CustomCurves */ = {
+			isa = PBXGroup;
+			children = (
+				28B292BD27F343F10009030B /* CustomCurvesMainView.swift */,
+				28B292BF27F343FC0009030B /* CustomCurvesTopBar.swift */,
+				28B292C127F3440A0009030B /* CustomCurveProfile.swift */,
+				2850A80B27F487C100CC8DC8 /* CustomCurveIntroductionBubble.swift */,
+				2850A80D27F488E600CC8DC8 /* CustomCurveJobCategoryCard.swift */,
+			);
+			path = CustomCurves;
+			sourceTree = "<group>";
+		};
 		28C7D2C527E651610018F1E1 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -597,7 +620,10 @@
 				28C7D2C927E6559B0018F1E1 /* AppleWatchStoreDetailView.swift in Sources */,
 				28565E0327E7AA3D004B217E /* TestView.swift in Sources */,
 				28E995A327F079B60088B67D /* OrderFood.swift in Sources */,
+				2850A80C27F487C100CC8DC8 /* CustomCurveIntroductionBubble.swift in Sources */,
 				288E2CD527E4B3C20083F48F /* View.swift in Sources */,
+				28B292C227F3440A0009030B /* CustomCurveProfile.swift in Sources */,
+				28B292BE27F343F10009030B /* CustomCurvesMainView.swift in Sources */,
 				288E2CEA27E4B6D80083F48F /* AppleWatchStorePresenterView.swift in Sources */,
 				288E2CDD27E4B4CE0083F48F /* AppGlobals.swift in Sources */,
 				28501D0027F1B38400485BE3 /* TravelAppMainView.swift in Sources */,
@@ -621,6 +647,7 @@
 				28565DFD27E7A1A7004B217E /* AppleWatchStoreSearhView.swift in Sources */,
 				288E2CE327E4B5590083F48F /* AppleWatchStoreWatch.swift in Sources */,
 				286BAE5C27ED029800F268E9 /* MelodiLampColorSelector.swift in Sources */,
+				2850A80E27F488E600CC8DC8 /* CustomCurveJobCategoryCard.swift in Sources */,
 				2886050427ED82BF006A5196 /* GameUICharacter.swift in Sources */,
 				2886050E27ED84AF006A5196 /* GameUIMainViewTopBar.swift in Sources */,
 				28E995A127F0799C0088B67D /* OrderFoodCell.swift in Sources */,
@@ -653,6 +680,7 @@
 				2886050C27ED848D006A5196 /* GameUICharacterCarView.swift in Sources */,
 				2886050127ED8262006A5196 /* GameUIDate.swift in Sources */,
 				288E2CDB27E4B46E0083F48F /* Screen.swift in Sources */,
+				28B292C027F343FC0009030B /* CustomCurvesTopBar.swift in Sources */,
 				2886051927ED8873006A5196 /* NutritionValueMainView.swift in Sources */,
 				2886050827ED830D006A5196 /* GameUIDetailView.swift in Sources */,
 			);
@@ -791,6 +819,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -802,7 +831,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -820,6 +849,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -831,7 +861,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
