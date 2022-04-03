@@ -9,4 +9,7 @@ import struct SwiftUI.Color
 
 extension Color{
     typealias appleWatchStoreColor = StyleGuide.Colors.AppleWatchStore
+    
+    
+    
 }

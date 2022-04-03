@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2800B05F27F87D8500CC3E2F /* PS4ControllerFastCharger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800B05E27F87D8500CC3E2F /* PS4ControllerFastCharger.swift */; };
 		280A5F3127EF57E3002B882E /* Trapezius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A5F3027EF57E3002B882E /* Trapezius.swift */; };
 		280A5F3327EF5819002B882E /* OderDrinkMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A5F3227EF5819002B882E /* OderDrinkMainView.swift */; };
 		28501CFB27F1AFD700485BE3 /* TravelAppPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28501CFA27F1AFD700485BE3 /* TravelAppPlace.swift */; };
@@ -65,6 +66,7 @@
 		28B292C227F3440A0009030B /* CustomCurveProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B292C127F3440A0009030B /* CustomCurveProfile.swift */; };
 		28C7D2C727E6517D0018F1E1 /* AppleWatchStoreTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C7D2C627E6517D0018F1E1 /* AppleWatchStoreTopBar.swift */; };
 		28C7D2C927E6559B0018F1E1 /* AppleWatchStoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C7D2C827E6559B0018F1E1 /* AppleWatchStoreDetailView.swift */; };
+		28D921B127F7560A00E91EEE /* PS4ControllerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D921B027F7560A00E91EEE /* PS4ControllerMainView.swift */; };
 		28E9959927F0758B0088B67D /* OrderFoodTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E9959827F0758B0088B67D /* OrderFoodTopBar.swift */; };
 		28E9959B27F077370088B67D /* OrderFoodMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E9959A27F077370088B67D /* OrderFoodMainView.swift */; };
 		28E9959D27F077840088B67D /* OrderFoodCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E9959C27F077840088B67D /* OrderFoodCategory.swift */; };
@@ -78,6 +80,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2800B05E27F87D8500CC3E2F /* PS4ControllerFastCharger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PS4ControllerFastCharger.swift; sourceTree = "<group>"; };
 		280A5F3027EF57E3002B882E /* Trapezius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trapezius.swift; sourceTree = "<group>"; };
 		280A5F3227EF5819002B882E /* OderDrinkMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OderDrinkMainView.swift; sourceTree = "<group>"; };
 		28501CFA27F1AFD700485BE3 /* TravelAppPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppPlace.swift; sourceTree = "<group>"; };
@@ -137,6 +140,7 @@
 		28B292C127F3440A0009030B /* CustomCurveProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurveProfile.swift; sourceTree = "<group>"; };
 		28C7D2C627E6517D0018F1E1 /* AppleWatchStoreTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreTopBar.swift; sourceTree = "<group>"; };
 		28C7D2C827E6559B0018F1E1 /* AppleWatchStoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreDetailView.swift; sourceTree = "<group>"; };
+		28D921B027F7560A00E91EEE /* PS4ControllerMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PS4ControllerMainView.swift; sourceTree = "<group>"; };
 		28E9959827F0758B0088B67D /* OrderFoodTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFoodTopBar.swift; sourceTree = "<group>"; };
 		28E9959A27F077370088B67D /* OrderFoodMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFoodMainView.swift; sourceTree = "<group>"; };
 		28E9959C27F077840088B67D /* OrderFoodCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFoodCategory.swift; sourceTree = "<group>"; };
@@ -344,6 +348,7 @@
 		288E2CC227E4B0950083F48F /* ComplexViews */ = {
 			isa = PBXGroup;
 			children = (
+				28D921AF27F751FD00E91EEE /* PS4Controller */,
 				28B292BB27F33C400009030B /* CustomCurves */,
 				28501CF827F1AFBB00485BE3 /* TravelApp */,
 				28E9959727F0756E0088B67D /* OrderFood */,
@@ -523,6 +528,15 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		28D921AF27F751FD00E91EEE /* PS4Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28D921B027F7560A00E91EEE /* PS4ControllerMainView.swift */,
+				2800B05E27F87D8500CC3E2F /* PS4ControllerFastCharger.swift */,
+			);
+			path = PS4Controller;
+			sourceTree = "<group>";
+		};
 		28E9959727F0756E0088B67D /* OrderFood */ = {
 			isa = PBXGroup;
 			children = (
@@ -675,7 +689,9 @@
 				288E2CD027E4B32C0083F48F /* Color.swift in Sources */,
 				28E9959F27F077A50088B67D /* OrderFoodCategoryCell.swift in Sources */,
 				288E2CE827E4B5BE0083F48F /* AppleWatchStoreData.swift in Sources */,
+				2800B05F27F87D8500CC3E2F /* PS4ControllerFastCharger.swift in Sources */,
 				286BAE5227ED00F800F268E9 /* MelodiLampCartIcon.swift in Sources */,
+				28D921B127F7560A00E91EEE /* PS4ControllerMainView.swift in Sources */,
 				2886051027ED84E3006A5196 /* GameUIMainView.swift in Sources */,
 				2886050C27ED848D006A5196 /* GameUICharacterCarView.swift in Sources */,
 				2886050127ED8262006A5196 /* GameUIDate.swift in Sources */,

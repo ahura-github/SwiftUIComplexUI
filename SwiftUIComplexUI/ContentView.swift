@@ -35,8 +35,9 @@ struct ContentView: View {
             
             NavigationLink("Custom Curve") {
                 CustomCurvesMainView()}
-//            NavigationLink("GameUI") {
-//                GameUIMainView()}
+            
+           NavigationLink("PS4 ontroller") {
+               PS4ControllerMainView()}
 //            NavigationLink("GameUI") {
 //                GameUIMainView()}
 //            NavigationLink("GameUI") {

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import struct SwiftUI.Color
 
 enum StyleGuide{
     
@@ -13,6 +14,11 @@ enum StyleGuide{
         enum AppleWatchStore: AppColor{
             case orange = "OrangeAppleWatchStore"
             case brown  = "BrownAppleWatchStore"
+            
+            
+            func paint() -> Color{
+                self.rawValue.associatedColor
+            }
         }
         
         enum GameUI: AppColor{
