@@ -11,8 +11,9 @@ import SwiftUI
 struct PS4ControllerMainView: View {
     var body: some View{
         VStack{
+          
             topSection
-            
+        
             detailText
             
             details
@@ -93,14 +94,17 @@ extension PS4ControllerMainView{
             
             Spacer(minLength: 0)
             
-            Image("ps5Controller")
+            Image("ps5Controller1")
                 .resizable()
                 .scaledToFit()
                 .rotationEffect(Angle(degrees: -90))
                 .padding(.horizontal, -70)
                 .offset(x: 55)
+                
+            
         }
         .padding(.top, 35)
+       
     }
     private var bookmarkButton: some View {
         Button(action: {}){
@@ -116,17 +120,24 @@ extension PS4ControllerMainView{
     }
     private var topSection:     some View {
         ZStack(alignment: .bottomLeading) {
+            ZStack(alignment: .topTrailing){
+                
             VStack {
                 topBar
                 
+               
                 info
+                
+            
             }
             .padding(.horizontal)
             .padding(.top, Screen.Edge.topSafeArea + 10)
             ///Decreasing height
             .padding(.bottom, -30)
             .background(topBackgroun)
-            
+                
+                
+        }
             bookmarkButton
             
             

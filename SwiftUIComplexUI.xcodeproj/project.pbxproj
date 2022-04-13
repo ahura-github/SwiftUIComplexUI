@@ -38,6 +38,12 @@
 		2886051427ED870C006A5196 /* NutritionValueFruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886051327ED870C006A5196 /* NutritionValueFruit.swift */; };
 		2886051627ED8782006A5196 /* NutritionValueData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886051527ED8782006A5196 /* NutritionValueData.swift */; };
 		2886051927ED8873006A5196 /* NutritionValueMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886051827ED8873006A5196 /* NutritionValueMainView.swift */; };
+		288C13BB280681FE005DA47B /* Authentication1RightSideCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288C13BA280681FE005DA47B /* Authentication1RightSideCurve.swift */; };
+		288C13BD2806825A005DA47B /* AuthenticationLeftSideCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288C13BC2806825A005DA47B /* AuthenticationLeftSideCurve.swift */; };
+		288C13BF28068281005DA47B /* Auhentication1SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288C13BE28068281005DA47B /* Auhentication1SignUpView.swift */; };
+		288C13C1280682BD005DA47B /* Authentication1LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288C13C0280682BD005DA47B /* Authentication1LoginView.swift */; };
+		288C13C32806843D005DA47B /* Authentication1EmailField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288C13C22806843D005DA47B /* Authentication1EmailField.swift */; };
+		288C13C5280684B9005DA47B /* Authentication1PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288C13C4280684B9005DA47B /* Authentication1PasswordField.swift */; };
 		288C98F927F1EA1800078701 /* TravelAppDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288C98F827F1EA1800078701 /* TravelAppDetailView.swift */; };
 		288C98FC27F1ECFB00078701 /* TravelAppShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288C98FB27F1ECFB00078701 /* TravelAppShape.swift */; };
 		288E2CB527E4B0760083F48F /* SwiftUIComplexUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CB427E4B0760083F48F /* SwiftUIComplexUIApp.swift */; };
@@ -61,6 +67,7 @@
 		288E2CF127E4C4920083F48F /* AppleWatchStoreTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CF027E4C4920083F48F /* AppleWatchStoreTabBar.swift */; };
 		288E2CF327E4C6AC0083F48F /* WatchScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CF227E4C6AC0083F48F /* WatchScroll.swift */; };
 		288E2CF527E4C8E40083F48F /* AppleWatchStoreMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E2CF427E4C8E40083F48F /* AppleWatchStoreMenuBar.swift */; };
+		28A506B22805531B003F57BE /* Authentication1MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A506B12805531B003F57BE /* Authentication1MainView.swift */; };
 		28B292BE27F343F10009030B /* CustomCurvesMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B292BD27F343F10009030B /* CustomCurvesMainView.swift */; };
 		28B292C027F343FC0009030B /* CustomCurvesTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B292BF27F343FC0009030B /* CustomCurvesTopBar.swift */; };
 		28B292C227F3440A0009030B /* CustomCurveProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B292C127F3440A0009030B /* CustomCurveProfile.swift */; };
@@ -111,6 +118,12 @@
 		2886051327ED870C006A5196 /* NutritionValueFruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueFruit.swift; sourceTree = "<group>"; };
 		2886051527ED8782006A5196 /* NutritionValueData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueData.swift; sourceTree = "<group>"; };
 		2886051827ED8873006A5196 /* NutritionValueMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueMainView.swift; sourceTree = "<group>"; };
+		288C13BA280681FE005DA47B /* Authentication1RightSideCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication1RightSideCurve.swift; sourceTree = "<group>"; };
+		288C13BC2806825A005DA47B /* AuthenticationLeftSideCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationLeftSideCurve.swift; sourceTree = "<group>"; };
+		288C13BE28068281005DA47B /* Auhentication1SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auhentication1SignUpView.swift; sourceTree = "<group>"; };
+		288C13C0280682BD005DA47B /* Authentication1LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication1LoginView.swift; sourceTree = "<group>"; };
+		288C13C22806843D005DA47B /* Authentication1EmailField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication1EmailField.swift; sourceTree = "<group>"; };
+		288C13C4280684B9005DA47B /* Authentication1PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication1PasswordField.swift; sourceTree = "<group>"; };
 		288C98F827F1EA1800078701 /* TravelAppDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppDetailView.swift; sourceTree = "<group>"; };
 		288C98FB27F1ECFB00078701 /* TravelAppShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppShape.swift; sourceTree = "<group>"; };
 		288E2CB127E4B0760083F48F /* SwiftUIComplexUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIComplexUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +148,7 @@
 		288E2CF027E4C4920083F48F /* AppleWatchStoreTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreTabBar.swift; sourceTree = "<group>"; };
 		288E2CF227E4C6AC0083F48F /* WatchScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchScroll.swift; sourceTree = "<group>"; };
 		288E2CF427E4C8E40083F48F /* AppleWatchStoreMenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreMenuBar.swift; sourceTree = "<group>"; };
+		28A506B12805531B003F57BE /* Authentication1MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication1MainView.swift; sourceTree = "<group>"; };
 		28B292BD27F343F10009030B /* CustomCurvesMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesMainView.swift; sourceTree = "<group>"; };
 		28B292BF27F343FC0009030B /* CustomCurvesTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesTopBar.swift; sourceTree = "<group>"; };
 		28B292C127F3440A0009030B /* CustomCurveProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurveProfile.swift; sourceTree = "<group>"; };
@@ -348,6 +362,7 @@
 		288E2CC227E4B0950083F48F /* ComplexViews */ = {
 			isa = PBXGroup;
 			children = (
+				28A506B0280552F2003F57BE /* Authentication1 */,
 				28D921AF27F751FD00E91EEE /* PS4Controller */,
 				28B292BB27F33C400009030B /* CustomCurves */,
 				28501CF827F1AFBB00485BE3 /* TravelApp */,
@@ -508,6 +523,20 @@
 			path = DetailView;
 			sourceTree = "<group>";
 		};
+		28A506B0280552F2003F57BE /* Authentication1 */ = {
+			isa = PBXGroup;
+			children = (
+				28A506B12805531B003F57BE /* Authentication1MainView.swift */,
+				288C13BA280681FE005DA47B /* Authentication1RightSideCurve.swift */,
+				288C13BC2806825A005DA47B /* AuthenticationLeftSideCurve.swift */,
+				288C13BE28068281005DA47B /* Auhentication1SignUpView.swift */,
+				288C13C0280682BD005DA47B /* Authentication1LoginView.swift */,
+				288C13C22806843D005DA47B /* Authentication1EmailField.swift */,
+				288C13C4280684B9005DA47B /* Authentication1PasswordField.swift */,
+			);
+			path = Authentication1;
+			sourceTree = "<group>";
+		};
 		28B292BB27F33C400009030B /* CustomCurves */ = {
 			isa = PBXGroup;
 			children = (
@@ -636,7 +665,9 @@
 				28E995A327F079B60088B67D /* OrderFood.swift in Sources */,
 				2850A80C27F487C100CC8DC8 /* CustomCurveIntroductionBubble.swift in Sources */,
 				288E2CD527E4B3C20083F48F /* View.swift in Sources */,
+				28A506B22805531B003F57BE /* Authentication1MainView.swift in Sources */,
 				28B292C227F3440A0009030B /* CustomCurveProfile.swift in Sources */,
+				288C13BF28068281005DA47B /* Auhentication1SignUpView.swift in Sources */,
 				28B292BE27F343F10009030B /* CustomCurvesMainView.swift in Sources */,
 				288E2CEA27E4B6D80083F48F /* AppleWatchStorePresenterView.swift in Sources */,
 				288E2CDD27E4B4CE0083F48F /* AppGlobals.swift in Sources */,
@@ -644,10 +675,12 @@
 				288E2CE027E4B5150083F48F /* AppleWatchStoreMainView.swift in Sources */,
 				28E995AC27F08A360088B67D /* OrderFoodPageControl.swift in Sources */,
 				288E2CD827E4B4040083F48F /* CustomCornerRadius.swift in Sources */,
+				288C13BD2806825A005DA47B /* AuthenticationLeftSideCurve.swift in Sources */,
 				2886051427ED870C006A5196 /* NutritionValueFruit.swift in Sources */,
 				28E9959D27F077840088B67D /* OrderFoodCategory.swift in Sources */,
 				288E2CB727E4B0760083F48F /* ContentView.swift in Sources */,
 				2886050A27ED8430006A5196 /* GameUICharacterStatView.swift in Sources */,
+				288C13BB280681FE005DA47B /* Authentication1RightSideCurve.swift in Sources */,
 				28E995A727F07E370088B67D /* OrderFoodCarousel.swift in Sources */,
 				28501D0427F1BA3400485BE3 /* TravelAppCarousel.swift in Sources */,
 				288E2CCD27E4B2330083F48F /* AppColor.swift in Sources */,
@@ -658,6 +691,7 @@
 				28E9959B27F077370088B67D /* OrderFoodMainView.swift in Sources */,
 				28565E0127E7A674004B217E /* AppleWatchStoreDetailBottomBar.swift in Sources */,
 				288E2CF127E4C4920083F48F /* AppleWatchStoreTabBar.swift in Sources */,
+				288C13C5280684B9005DA47B /* Authentication1PasswordField.swift in Sources */,
 				28565DFD27E7A1A7004B217E /* AppleWatchStoreSearhView.swift in Sources */,
 				288E2CE327E4B5590083F48F /* AppleWatchStoreWatch.swift in Sources */,
 				286BAE5C27ED029800F268E9 /* MelodiLampColorSelector.swift in Sources */,
@@ -677,6 +711,7 @@
 				28565DFF27E7A3A7004B217E /* AppleWatchGeneralInfo.swift in Sources */,
 				288E2CD327E4B3A00083F48F /* FrameModifier.swift in Sources */,
 				280A5F3327EF5819002B882E /* OderDrinkMainView.swift in Sources */,
+				288C13C1280682BD005DA47B /* Authentication1LoginView.swift in Sources */,
 				288C98FC27F1ECFB00078701 /* TravelAppShape.swift in Sources */,
 				2886051627ED8782006A5196 /* NutritionValueData.swift in Sources */,
 				286BAE5E27ED02BF00F268E9 /* MelodiLampMainView.swift in Sources */,
@@ -685,6 +720,7 @@
 				28C7D2C727E6517D0018F1E1 /* AppleWatchStoreTopBar.swift in Sources */,
 				28E9959927F0758B0088B67D /* OrderFoodTopBar.swift in Sources */,
 				286BAE5827ED025300F268E9 /* MelodiLampDetailLabel.swift in Sources */,
+				288C13C32806843D005DA47B /* Authentication1EmailField.swift in Sources */,
 				288C98F927F1EA1800078701 /* TravelAppDetailView.swift in Sources */,
 				288E2CD027E4B32C0083F48F /* Color.swift in Sources */,
 				28E9959F27F077A50088B67D /* OrderFoodCategoryCell.swift in Sources */,

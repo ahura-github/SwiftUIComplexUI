@@ -10,16 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         List{
+            
             NavigationLink("Go to Apple Watch Store") {
                 AppleWatchStorePresenterView()}
             
             NavigationLink("Melodi Lamps") {
                 MelodiLampMainView()}
             
-            
             NavigationLink("GameUI") {
                 GameUIMainView()}
-            
             
             NavigationLink("Nutrition Value") {
                 NutritionValueMainView()}
@@ -36,10 +35,12 @@ struct ContentView: View {
             NavigationLink("Custom Curve") {
                 CustomCurvesMainView()}
             
-           NavigationLink("PS4 ontroller") {
+            NavigationLink("PS4 ontroller") {
                PS4ControllerMainView()}
-//            NavigationLink("GameUI") {
-//                GameUIMainView()}
+            
+            NavigationLink("Authentication 1") {
+                Authentication1MainView()}
+            
 //            NavigationLink("GameUI") {
 //                GameUIMainView()}
 //            NavigationLink("GameUI") {
